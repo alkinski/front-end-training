@@ -8,14 +8,18 @@
  	<p>Website LOGO</p>
  	<img src="https://upload.wikimedia.org/wikipedia/commons/9/93/9front_small_logo.png" alt="Site Logo">
  	<p>Website Navigation:</p>
+ 	<nav>
  	<ul>	
- 		<li><a href="#">Home</a></li>
- 		<li><a href="#">About Us</a></li>
- 		<li><a href="#">Blog</a></li>
- 		<li><a href="#">Contact Us</a></li>
+ 		<li><a href="javascript:;">Home</a></li>
+ 		<li><a href="javascript:;">About Us</a></li>
+ 		<li><a href="javascript:;">Blog</a></li>
+ 		<li><a href="javascript:;">Contact Us</a></li>
  	</ul>
+ 	</nav>
+
+ 	<article>
  	<h1>Collaborating With GIT</h1>
- 	<h1>Why good commit messages matter?</h1>
+ 	<h2>Why good commit messages matter?</h2>
  	<p>The seven rules of a great commit message</p>
  	<ol>
  		<li>Keep in mind: This has all been said before</li>
@@ -37,7 +41,7 @@
  	   patch(1) turns a commit into email, and it uses the title on the Subject line and the rest of <br>
  	   the commit in the body.
  	</q>
- 	<h1>Limit the subject line to 50 characters</h1>
+ 	<h2>Limit the subject line to 50 characters</h2>
  	<p>50 characters is not a hard limit, just a rule of thumb. Keeping subject lines at this <br>
  	   length ensures that they are readable, and forces the author to think for a moment <br>
  	   about the most concise way to explain what's going on.</p>
@@ -75,37 +79,42 @@
  			<td>Value 12</td>
  		</tr>
  	</table>
+ 	</article>
+
+	<aside>
  	<form>
 	 	<fieldset>
 	 		<p>Useful Links</p>
 	 		<ul>
-	 			<li><a href="#">Link 1</a></li>
-	 			<li><a href="#">Link 2</a></li>
-	 			<li><a href="#">Link 3</a></li>
+	 			<li><a href="javascript:;">Link 1</a></li>
+	 			<li><a href="javascript:;">Link 2</a></li>
+	 			<li><a href="javascript:;">Link 3</a></li>
 	 		</ul>
 	 		<p>Register for our Newsletter</p>
 	 		<input type="text" placeholder="Your Name"><br>
-	 		<input type="text" placeholder="Your Email"><br>
-	 		<input type="text" placeholder="Your Phone"><br>
+	 		<input type="email" placeholder="Your Email"><br>
+	 		<input type="tel" placeholder="Your Phone"><br>
 	 		<p>Gender</p>
-	 		<input type="radio" value="male" checked>Male<br>
-			<input type="radio" value="female">Female<br>
+	 		<input id="male" name="gender" type="radio" value="male" checked><label for="male">Male</label><br>
+			<input id="female" name="gender" type="radio" value="female"><label for="female">Female</label><br>
 			<br>
 			<select>
 				<option value="status">Social Status</option>
 			</select>
 			<br><br>
-			<input type="submit" value="Register (this is a button)">
+			<button type="submit">Register (this is a button)</button>
 	 	</fieldset>
  	</form>
+ 	</aside>
+
  	<footer>
  		<p>&#169; 2016 GitHub, Inc. Links:</p>
  		<ul>
-	 		<li><a href="#">Terms</a></li>
-	 		<li><a href="#">Privacy</a></li>
-	 		<li><a href="#">Security</a></li>
-	 		<li><a href="#">Contact</a></li>
-	 		<li><a href="#">Help</a></li>
+	 		<li><a href="javascript:;">Terms</a></li>
+	 		<li><a href="javascript:;">Privacy</a></li>
+	 		<li><a href="javascript:;">Security</a></li>
+	 		<li><a href="javascript:;">Contact</a></li>
+	 		<li><a href="javascript:;">Help</a></li>
  		</ul>
  	</footer>
  </body>
